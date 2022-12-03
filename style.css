@@ -1,0 +1,66 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    color:rgb(176, 176, 223);
+    text-shadow: 
+        0.025em 0.025em 0 rgb(71, 71, 105),
+        0.05em 0.05em 0 rgb(82, 82, 122),
+        0.075em 0.075em 0 rgb(87, 86, 100),
+        0.1em 0.1em 0 rgb(45, 45, 90);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 420px;
+    gap: 20px;
+    border: inset rgb(53, 53, 53) 10px;
+    padding: 20px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    
+}
+.display {
+    background-color: rgb(91, 122, 112);
+    color:rgb(29, 29, 29);
+    width: 360px;
+    height: 75px;
+    font-size: 48px;
+    text-align: end;
+    border: inset grey 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px;
+}
+
+button {
+    font-size: 48px;
+    width: 80px;
+    border-radius: 10px;
+    margin: 5px;
+    color: rgb(201, 201, 201);
+    background-color: rgb(41, 40, 40);
+    cursor: pointer;
+    box-shadow: 4px 4px;
+}
+button:hover {
+    color:rgb(212, 212, 153);
+}
+button:active {
+    color:rgb(148, 148, 73);
+}
+.buttons .ac{
+   background-color: rgb(107, 18, 18);
+}
+
+.buttons .operator{
+    background-color: rgb(43, 112, 124);
+}
